@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="PreEmp"
+      id="00e1e8a8-2b15-45e8-a1a2-b9d952c3d953"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="PreEmp"
+      id="00e1e8a8-2b15-45e8-a1a2-b9d952c3d953"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

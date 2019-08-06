@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="987ff272-71b9-4913-9f77-bb7be0b3e332"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="PreEmp">
+	</codegen>
+	<variables>
+		<var
+		id="3b2c5c67-5d04-4bc7-b81e-52b9677dd014"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="7b895574-3e6b-4e49-8769-b9f064e3b061">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="32f2fc2a-1b3c-4120-bb73-9c4ff166d43b"
+	name="PreEmpRepository"
+	relativepath="PreEmpRepository.rxrep">
+		<codegen
+		classname="PreEmpRepository"
+		namespace="PreEmp">
+		</codegen>
+		<rootfolder
+		id="9b05a258-7840-45e3-9df0-85c25bcfbfcc"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
